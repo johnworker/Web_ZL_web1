@@ -12,12 +12,21 @@
     width: 600px;
     /* 上 左右 下 */
     margin: 100px auto 0;
-    padding: 300px 80px 100px;
+    padding: 250px 80px 100px;
+    box-shadow: 12px 10px 10px rgba(0, 0, 0, 0.4);
+    /* 轉場：轉場時間 */
+    transition: 0.5s;
+}
+
+/* 選取器:hover - 滑入元素後的樣式 */
+#card:hover {
+    /* 變形：尺寸(倍數) */
+    transform: scale(1.2);
 }
 
 #content {
-    background-color: rgba(255, 255, 255, 0.2);
-    color: rgb(255, 238, 2);
+    background-color: rgba(20, 20, 20, 0.5);
+    color: rgb(255, 174, 0);
     padding: 30px 20px;
 }
 
@@ -37,10 +46,19 @@ li {
 }
 
 footer {
+    /* tac */
     text-align: center;
+    /* fz */
     font-size: 80px;
+    /* ls */
     letter-spacing: 100px;
+    /* pl */
     padding-left: 100px;
-    color: rgba(0, 0, 0, 0.1);
+    /* c */
+    color:  rgba(255, 174, 0, 0.8);
+    /* mt */
     margin-top: 50px;
+}
+body {
+    background: #202020;
 }
