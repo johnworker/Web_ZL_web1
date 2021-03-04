@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體;
+}
+
+#card {
+    background-image: url("https://images.unsplash.com/photo-1502462041640-b3d7e50d0662?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1051&q=80");
+    /* bgs */
+    /* cover 滿版 */
+    background-size: cover;
+    width: 600px;
+    /* 上 左右 下 */
+    margin: 100px auto 0;
+    padding: 300px 80px 100px;
+}
+
+#content {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgb(255, 238, 2);
+    padding: 30px 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+ul {
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: 100px;
+    padding-left: 100px;
+    color: rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
